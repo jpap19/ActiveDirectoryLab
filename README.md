@@ -21,6 +21,11 @@ test this image: <br/>
 <img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/Hello.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
+<p align="center">
+test this image: <br/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/Hello.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
 
 
 <!--
