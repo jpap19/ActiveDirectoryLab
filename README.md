@@ -18,7 +18,7 @@ In this lab, we are going to create an Active Directory home lab Environment usi
 
 <p align="center">
 test this image: <br/>
-<img src="https://imgur.com/hZCv71U" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/commit/2fdcb0ec73ed43c3e63585bc33ffbe97535f96d5" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
 
