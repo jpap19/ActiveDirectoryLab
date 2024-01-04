@@ -30,8 +30,7 @@ This diagram shows the environment we are going to setup. The implementation wil
 
 STEP 1: Download and install oracle virtual box that will be used to setup and run virtual machines. Download Windows 10 ISO and Server 2019 ISO that will be installed on two separate virtual machines.
 
-STEP 2: Create the first virtual machine that will act as the domain controller. Install Server 2019 on it and configure two Networks Interface Card (NIC1, NIC2). NIC1 wil face internet and get IP from our home router, 
-NIC2 will be configured with the IP showing on the diagram and act as the internal or private network. 
+STEP 2: Create the first virtual machine that will act as the domain controller. Install Server 2019 on it and configure two Networks Interface Card (NIC1, NIC2). NIC1 wil face internet and get IP from our home router, NIC2 will be configured with the IP showing on the diagram and act as the internal or private network. 
 
 STEP 3: Install Active Directory on the domain controller (DC Server19), Configure Network Adresse Translation (NAT) to allow private users to get to internet, 
 Setup the DHCP on that DC so that any virtual machine created on the internal network will automatically get IP adresse. Then, run a powershell script to automatically create 1K users on Active Directory.
@@ -48,14 +47,75 @@ Windows 10 ISO: https://www.microsoft.com/en-us/software-download/windows10ISO
 
 Create Accounts Script: https://github.com/jpap19/Acticve-Directory-LAB/tree/main/AD_PS_Master
 
-STEP 1: Download and install oracle virtual box that will be used to setup and run virtual machines. Download Windows 10 ISO and Server 2019 ISO that will be installed on two separate virtual machines.
-Go to the link provided here above, download and install virtual box, Once it install download and install its extension pack. Then download windows 10 ISO and Server 2019 ISO and save in a folder on the computer.
+STEP 1: Go to the link provided here above, download and install virtual box, Once it's installed, download and install its extension pack. Then download windows 10 ISO and Server 2019 ISO and save in a folder on the computer. oracle virtual box will be used to setup and run virtual machines, Windows 10 ISO and Server 2019 ISO will be installed on two separate virtual machines.
  
 Virtual Box installed: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+
+Windows 10 ISO and Server 2019 saved in a folder: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+
+STEP 2: Create the first virtual machine that will act as the domain controller. Install Server 2019 on it and configure two Networks Interface Card (NIC1, NIC2). NIC1 wil face internet and get IP from our home router, NIC2 will be configured with the IP showing on the diagram and act as the internal or private network. 
+
+Domain Controler Virtual Machine created with two NICs adapter: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/DC%20VM%20.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+
+Server 2019 installed on Domain Controler, the two Network Interface cards renamed, the internal network adapter configured with the IP addresses showing on the diagram above: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/NIC%20card%20renamed%20and%20conf.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+
+Domain Controler internet connectivity tested successfuly by pinging the Google DNS Server: 8.8.8.8: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/DC%20Internet%20Ping.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+
+STEP 3: Install Active Directory on the domain controller (DC Server19), Configure Network Adresse Translation (NAT) to allow private users to get to internet, 
+Setup the DHCP on that DC so that any virtual machine created on the internal network will automatically get IP adresse. Then, run a powershell script to automatically create 1K users on Active Directory.
+
+Windows 10 ISO and Server 2019 saved in a folder: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+Virtual Box installed: <br/>
+
 <img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
 Windows 10 ISO and Server 2019 saved in a folder: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+Virtual Box installed: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+Windows 10 ISO and Server 2019 saved in a folder: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+Virtual Box installed: <br/>
+
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<br />
+<br />
+Windows 10 ISO and Server 2019 saved in a folder: <br/>
+
 <img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
