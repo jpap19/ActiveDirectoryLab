@@ -84,29 +84,29 @@ Domain Controler internet connectivity tested successfuly by pinging the Google 
 STEP 3: Install Active Directory on the domain controller (DC Server19), Configure Network Adresse Translation (NAT) to allow private users to get to internet, 
 Setup the DHCP on that DC so that any virtual machine created on the internal network will automatically get IP adresse. Then, run a powershell script to automatically create 1K users on Active Directory.
 
-Windows 10 ISO and Server 2019 saved in a folder: <br/>
+Installation of Active Directory (AD): <br/>
 
-<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/Installation%20AD.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
-Virtual Box installed: <br/>
+Creation and configuration of Domain Service (DS): <br/>
 
-<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/Creation%20of%20DS.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
-Windows 10 ISO and Server 2019 saved in a folder: <br/>
+Active Directory created and Domain Service configured (AD DS): <br/>
 
-<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/AD%20DS%20created.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
-Virtual Box installed: <br/>
+Creation of one user in Admin group in Active Directory Domain service: <br/>
 
-<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/virtual%20box%20installed.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/user%20passou%20in%20domain%20Admin.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
-Windows 10 ISO and Server 2019 saved in a folder: <br/>
+Login into the domain controler under the new group (Other) created with its new member(jean passou): <br/>
 
-<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/ISOs_win%2010_Server19.png" height="80%" width="80%" alt="Active Directory Lab"/>
+<img src="https://github.com/jpap19/ActiveDirectoryLab/blob/main/Images/login%20into%20other%20Domain%20with%20user%20jean%20passou.png" height="80%" width="80%" alt="Active Directory Lab"/>
 <br />
 <br />
 Virtual Box installed: <br/>
